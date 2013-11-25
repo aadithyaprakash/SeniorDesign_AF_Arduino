@@ -1,0 +1,10 @@
+void setup () {
+Serial.begin(9600);
+}
+void loop() {
+for (int x = 0; x<=1000; x = x + 2)
+//Serial.print("my number is ");
+Serial.println(x);
+Serial.print("\n");
+delay(400);
+}
